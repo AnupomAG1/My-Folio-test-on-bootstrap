@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+body{
+    font-family:  'Open Sans', sans-serif;
+}
+
+.button{
+ background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+    padding: 19px 42px ;
+    display: inline-block;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.heading p{
+    color: #7e8287;
+    font-size: 16px;
+}
+
+
+/* *NAV STARTS */
+nav{
+    background-color: #02918c;
+}
+nav .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 30%;
+    
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav .menu li {
+    display: inline-block;
+}
+
+nav .menu li a{
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+}
+
+
+/* *NAV ENDS */
+
+
+/* BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner .row{
+    height: 728px;
+    align-items: center;
+}
+
+
+.banner_cnt{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.banner_cnt h3{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner_cnt p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.banner_cnt h1{
+    color: white;
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner_cnt img{
+    margin: 50px 0;
+}
+
+.banner_cnt a{
+   
+}
+
+/* BANNER ENDS HERE */
+
+
+
+/* ABOUT STARTS HERE */
+#about{
+    padding: 98px 0;
+}
+
+.about_card{
+    padding: 36px 0;
+    border-right: 1px solid red;
+    width: 25%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about_card:last-child{
+    border: none;
+}
+
+
+.about_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+
+.about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+
+.about_card p{
+    color: #7e8287;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* ABOUT ENDS HERE */
+
+
+/* SERVICES STARTS HERE */
+#service{
+    background-image: url(../images/services.jpg);
+    padding: 74px 0;
+    background-size: cover;
+}
+.service_left{
+    width: 50%;
+}
+
+
+#service .heading{
+    text-align: left;
+}
+
+.service_card{
+    width: 50%;
+    outline: 1px solid red;
+}
+
+/* SERVICES ENDS HERE */
+
+
+/* WORK STARTS HERE */
+#work{
+    padding: 60px 0;
+}
+
+.work_card{
+    width: 25%;
+    position: relative;
+}
+
+.work_card img{
+    width: 100%;
+    display: block;
+    /* line-height: 0; */
+}
+
+
+.work_card .overlay{
+    position: absolute;
+    background-color: #02918c92;
+    background-blend-mode: screen;
+    inset: 20px 28px ;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 50px;
+    transition: 0.45s;
+}
+
+
+
+.work_card:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+/* WORK ENDS HERE */

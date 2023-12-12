@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* *NAV STARTS */
+
+
+.navbar{
+    background-color: #02918c !important; 
+    /* height: 60px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100; */
+    
+    
+}
+
+/* .mynav .logo{
+    width: 30% !important;
+}
+.mynav .menu{
+
+    width: 70% !important;
+    
+} */
+
+
+
+
+
+/* nav .menu li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+    
+} */
+
+.mynav .item  a{
+    font-weight: 800 !important;
+    font-size: 11px !important;
+    color: white !important;
+    text-transform: uppercase !important;
+    padding: 0px 25px !important; 
+    align-items: center !important;
+}
+.navbar .nav-item a:hover{
+
+    color:#cfc91d !important;
+    
+}
+.navbar .navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+.navbar button{
+    color: #cfc91d;
+}
+
+
+/* banner  */
+#banner{
+    background-image: url('./Images/MyFOLIO\ background.jpg');
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* banner end */
+
+
+/* *BANNER Starts* */
+#BANNER{ margin: auto;
+    background-image: url(./Images/MyFOLIO\ background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top ;
+    height: 100%;
+   
+  }
+  
+  
+
+  /* #BANNER .container{
+
+    width: 1170px;
+    margin: auto; 
+    
+    
+  } */
+
+/* #BANNER .container .row{
+
+    justify-content: center;
+     height: 978px;
+     align-items: center;
+     opacity: 1%;
+     
+
+    
+  } */
+
+  
+/* #BANNER .container .row:hover{
+
+    justify-content: center;
+     height: 770px;
+     align-items: center;
+     transition: 1s;
+     opacity: 100%;
+
+    
+  } */
+
+
+
+/* .BANNER_CNT {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+   
+ 
+} */
+
+
+
+#BANNER .BANNER_CNT h3{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#BANNER  h1{
+
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 68px;
+}
+
+#BANNER .BANNER_CNT p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+}
+#BANNER .BANNER_CNT img{
+ margin: 40px 0;
+}
+
+/* #BANNER .BANNER_CNT a{
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 19px 52px;
+    display: inline-block;
+    border: 0px;
+    text-transform: uppercase; */
+ 
+
+
+/* BANNER ENDS */
